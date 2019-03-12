@@ -1,0 +1,10 @@
+/*this stylesheet is for the qa because I feel like showing off, or something*/
+@charset "utf-8";
+body{
+	background-color: black;
+	color: #ffebcd;
+	font-family: "verdana";
+}
+strong{
+	color: #ffd700;
+}
