@@ -1,2 +1,10 @@
 /*this is for assignment 3*/
 @charset "utf-8";
+header{
+	color: #006400;
+	font-family: "Times New Roman"
+}
+form{
+	border-style: ridge;
+	border-color: #000080;
+}
