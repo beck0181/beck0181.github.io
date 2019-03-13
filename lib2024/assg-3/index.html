@@ -9,7 +9,22 @@
 </head>
 <body>
 	<header>
-		<h1>Placeholder text</h1>
+		<h1>Registration Form</h1>
 	</header>
+	<main>
+		<h3>Please enter your information into all fields</h3>
+		<div id="container" class="container">
+			<section id="reg-form" class="reg-form">
+				<form method="thankyou.php" action="post">
+					<div id=fn-container class="form-element">
+						<label for="first-name">First Name</label>
+						<input type="text" name="first-name" id="first-name" placeholder="Ky">
+					</div>
+					<button type="submit">Submit</button>
+					<button type="reset">Clear all fields</button>
+				</form>
+			</section>
+		</div>
+	</main>
 </body>
 </html>
