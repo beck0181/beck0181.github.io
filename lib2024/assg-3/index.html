@@ -12,13 +12,67 @@
 		<h1>Registration Form</h1>
 	</header>
 	<main>
-		<h3>Please enter your information into all fields</h3>
+		<h3>Please enter your information to complete the registration.</h3>
+		<h5>* = required</h5>
 		<div id="container" class="container">
 			<section id="reg-form" class="reg-form">
 				<form method="thankyou.php" action="post">
 					<div id=fn-container class="form-element">
-						<label for="first-name">First Name</label>
-						<input type="text" name="first-name" id="first-name" placeholder="Ky">
+						<label for="firstname">First Name*</label>
+						<input type="text" name="firstname" id="firstname" placeholder="Ky" required>
+					</div>
+					<div id="ln-container" class="form-element">
+						<label for="lastname">Last Name*</label>
+						<input type="text" name="lastname" id="lastname" placeholder="Beckett" required>
+					</div>
+					<div id="email-container" class="form-element">
+						<label for="email">Please enter your email*</label>
+						<input type="email" name="email" id="email" placeholder="example@email.com" required>
+					</div>
+					<div id="pass-container" class="form-element">
+						<label for="pass">Please create a password*</label>
+						<input type="password" name="pass" id="pass" required>
+					</div>
+					<div id="phone-container" class="form-element">
+						<label for="phone">Please enter your mobile number*</label>
+						<input type="number" name="phone" id="phone" min="1000000000" max="9999999999" placeholder="1235551234" required><br>
+					</div>
+					<!-- thought - maybe stick a heading here as a dividing line? See how it looks when I'm done adding all the elements in, and I'm making it look good -->
+					<div id="gender-contain" class="form-element">
+						<p>Indicate your gender</p>
+						<label for="male">
+							<input type="radio" name="gender" id="male" value="male">
+							Male
+						</label>	
+						<label for="female">
+							<input type="radio" name="gender" id="female" value="female">
+							Female
+						</label>
+						<label for="other">
+							<input type="radio" name="gender" id="other" value="other">
+							Other
+						</label>
+						<label for="lizard">
+							<input type="radio" name="gender" id="lizard" value="lizard">
+							Lizard person
+						</label>
+						<label for="canadian">
+							<input type="radio" name="gender" id="canadian" value="canadian">
+							Canadian applicant
+						</label>
+						<label for="nope">
+							<input type="radio" name="nope" id="nope" value="nope" checked>
+							I'm not telling
+						</label>
+					</div>
+					<br>
+					<div id="date-container" class="form-element">
+						<label for="dob">Please enter your date of birth*</label>
+						<input type="date" name="dob" id="dob" required>
+					</div>
+					<div id="bio-contain" class="form-element">
+						<label for="bio">Tell us about yourself</label>
+						<textarea name="bio" id="bio"></textarea>
 					</div>
 					<button type="submit">Submit</button>
 					<button type="reset">Clear all fields</button>
