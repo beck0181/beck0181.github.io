@@ -7,4 +7,7 @@ header{
 form{
 	border-style: ridge;
 	border-color: #000080;
+	background-image: url("../images/paper.jpg");
+	/*IMPORTANT FOR LATER: Make sure to adjust the look and alignment of the form itself*/
 }
+/*consideration: background of some time for the main area? Or an alternative colour? A background would work better, though*/
