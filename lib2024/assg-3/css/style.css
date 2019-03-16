@@ -27,6 +27,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  align-items: center;
 }
 
 a:hover, a:active {
@@ -34,6 +35,5 @@ a:hover, a:active {
 }
 h2,h4{
 	font-family: "verdana";
-	text-align: center;
 	color: #000080;
 }
