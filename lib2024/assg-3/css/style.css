@@ -20,3 +20,20 @@ body{
 h3,h5{
 	color: #000080;
 }
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+h2,h4{
+	font-family: "verdana"
+	text-align: center;
+	color: #000080;
+}
