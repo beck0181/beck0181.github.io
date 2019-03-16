@@ -31,11 +31,72 @@
 					</div>
 					<div id="pass-container" class="form-element">
 						<label for="pass">Please create a password*</label>
-						<input type="password" name="pass" id="pass" required>
+						<input type="password" name="pass" id="pass" size="8" required>
 					</div>
 					<div id="phone-container" class="form-element">
 						<label for="phone">Please enter your mobile number*</label>
 						<input type="number" name="phone" id="phone" min="1000000000" max="9999999999" placeholder="1235551234" required><br>
+						<!-- I wish there was an easier way to do that -->
+					</div>
+					<div id="address-container" class="form-element">
+						<label for="addr">Address</label>
+						<input type="text" name="addr" id="addr">
+					</div>
+					<div id="city-contain" class="form-element">
+						<label for="city">City</label>
+						<input type="text" name="city" id="city">
+					</div>
+					<div id="province-container" class="form-element">
+						<label for="prov">Province</label>
+						<select name="prov" id="prov">
+							<option value="ab">Alberta</option>
+							<option value="bc">British Colombia</option>
+							<option value="mb">Manitoba</option>
+							<option value="nl">Newfoundland</option>
+							<option value="nb">New Brunswick</option>
+							<option value="nt">Northwest Territories</option>
+							<option value="ns">Nova Scotia</option>
+							<option value="nu">Nunavut</option>
+							<option value="on">Ontario</option>
+							<option value="pei">Prince Edward Island</option>
+							<option value="qc">Québec</option>
+							<option value="sk">Saskatchewan</option>
+							<option value="yt">Yukon</option>
+							<option value="no">Outside Canada</option>
+						</select>
+					</div>
+					<div id="country-container" class="form-element">
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<option value="canada">Canada</option>
+							<option value="antigua">Antigua and Barbuda</option>
+							<option value="bahama">The Bahamas</option>
+							<option value="barbados">Barbados</option>
+							<option value="belize">Belize</option>
+							<option value="costa">Costa Rica</option>
+							<option value="cuba">Cuba</option>
+							<option value="dominica">Dominica</option>
+							<option value="dom_rep">Dominican Republic</option>
+							<option value="el_sav">El Savador</option>
+							<option value="grenada">Grenada</option>
+							<option value="guatemala">Guatemala</option>
+							<option value="haiti">Haiti</option>
+							<option value="honduras">Honduras</option>
+							<option value="jamaica">Jamaica</option>
+							<option value="mexico">Mexico</option>
+							<option value="nicaragua">Nicaragua</option>
+							<option value="panama">Panama</option>
+							<option value="saint_kitts">Saint Kitts and Nevis</option>
+							<option value="saint_lucia">Saint Lucia</option>
+							<option value="saint_vincent">Saint Vincent and the Grenadines</option>
+							<option value="trinidad">Trinidad and Tobago</option>
+							<option value="usa">United States</option>
+							<option value="no">Outside North America</option>
+						</select>
+					</div>
+					<div id="post-container" class="form-element">
+						<label for="post">Postal Code (Canadians only)</label>
+						<input type="text" name="post" id="post" maxlength="6" placeholder="1A1A1A">
 					</div>
 					<!-- thought - maybe stick a heading here as a dividing line? See how it looks when I'm done adding all the elements in, and I'm making it look good -->
 					<div id="gender-contain" class="form-element">
@@ -73,6 +134,80 @@
 					<div id="bio-contain" class="form-element">
 						<label for="bio">Tell us about yourself</label>
 						<textarea name="bio" id="bio"></textarea>
+					</div>
+					<fieldset id="hobbies" class="form-element">
+						<legend>Do you have any hobbies?</legend>
+						<label for="read">
+							<input type="checkbox" name="read" id="read">
+							Reading
+						</label>
+						<label>
+							<input type="checkbox" name="trav" id="trav">
+							Travelling
+						</label>
+						<label for="fish">
+							<input type="checkbox" name="fish" id="fish">
+							Fishing
+						</label>
+						<label for="crafts">
+							<input type="checkbox" name="crafts" id="crafts">
+							Crafts
+						</label>
+						<label for="knit">
+							<input type="checkbox" name="knit" id="knit">
+							Knitting/Crocheting
+						</label>
+						<br>
+						<label for="tv">
+							<input type="checkbox" name="tv" id="tv">
+							Television
+						</label>
+						<label for="bird">
+							<input type="checkbox" name="bird" id="bird">
+							Bird Watching
+						</label>
+						<label for="collect">
+							<input type="checkbox" name="collect" id="collect">
+							Collecting
+						</label>
+						<label for="music">
+							<input type="checkbox" name="music" id="music">
+							Music
+						</label>
+						<label for="garden">
+							<input type="checkbox" name="garden" id="garden">
+							Gardening
+						</label>
+						<br>
+						<label for="game">
+							<input type="checkbox" name="game" id="game">
+							Gaming
+						</label>
+						<label for="prog">
+							<input type="checkbox" name="prog" id="prog">
+							Programming
+						</label>
+						<label for="sport">
+							<input type="checkbox" name="sport" id="sport">
+							Sports
+						</label>
+						<label for="exercise">
+							<input type="checkbox" name="exercise" id="exercise">
+							Exercise
+						</label>
+						<label for="walk">
+							<input type="checkbox" name="walk" id="walk">
+							Walking
+						</label>
+						<br>
+						<label for="other">
+							Other
+							<input type="text" name="other" id="other">
+						</label>
+					</fieldset>
+					<div id="web-contain" class="form-element">
+						<label for="web">Do you have a website?</label>
+						<input type="url" name="web" id="web">
 					</div>
 					<button type="submit">Submit</button>
 					<button type="reset">Clear all fields</button>
