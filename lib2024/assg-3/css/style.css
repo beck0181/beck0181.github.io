@@ -1,5 +1,5 @@
-/*this is for assignment 3*/
 @charset "utf-8";
+/*this css is for assg-3*/
 header{
 	color: #006400;
 	font-family: "Times New Roman"
@@ -19,5 +19,3 @@ body{
 }
 h3,h5{
 	color: #000080;
-}
-/*consideration: background of some type for the main area? Or an alternative colour? A background would work better, though*/
