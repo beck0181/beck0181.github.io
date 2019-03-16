@@ -16,38 +16,38 @@
 		<h5>* = required</h5>
 		<div id="container" class="container">
 			<section id="reg-form" class="reg-form">
-				<form method="thankyou.php" action="post">
+				<form method="/thankyou.html" action="post" target="_blank">
 					<div id=fn-container class="form-element">
-						<label for="firstname">First Name*</label>
+						<label for="firstname">First Name*</label><br>
 						<input type="text" name="firstname" id="firstname" placeholder="Ky" required>
 					</div>
 					<div id="ln-container" class="form-element">
-						<label for="lastname">Last Name*</label>
+						<label for="lastname">Last Name*</label><br>
 						<input type="text" name="lastname" id="lastname" placeholder="Beckett" required>
 					</div>
 					<div id="email-container" class="form-element">
-						<label for="email">Please enter your email*</label>
+						<label for="email">Please enter your email*</label><br>
 						<input type="email" name="email" id="email" placeholder="example@email.com" required>
 					</div>
 					<div id="pass-container" class="form-element">
-						<label for="pass">Please create a password*</label>
+						<label for="pass">Please create a password*</label><br>
 						<input type="password" name="pass" id="pass" size="8" required>
 					</div>
 					<div id="phone-container" class="form-element">
-						<label for="phone">Please enter your mobile number*</label>
+						<label for="phone">Please enter your mobile number*</label><br>
 						<input type="number" name="phone" id="phone" min="1000000000" max="9999999999" placeholder="1235551234" required><br>
 						<!-- I wish there was an easier way to do that -->
 					</div>
 					<div id="address-container" class="form-element">
-						<label for="addr">Address</label>
+						<label for="addr">Address</label><br>
 						<input type="text" name="addr" id="addr">
 					</div>
 					<div id="city-contain" class="form-element">
-						<label for="city">City</label>
+						<label for="city">City</label><br>
 						<input type="text" name="city" id="city">
 					</div>
 					<div id="province-container" class="form-element">
-						<label for="prov">Province</label>
+						<label for="prov">Province</label><br>
 						<select name="prov" id="prov">
 							<option value="ab">Alberta</option>
 							<option value="bc">British Colombia</option>
@@ -66,7 +66,7 @@
 						</select>
 					</div>
 					<div id="country-container" class="form-element">
-						<label for="country">Country</label>
+						<label for="country">Country</label><br>
 						<select name="country" id="country">
 							<option value="canada">Canada</option>
 							<option value="antigua">Antigua and Barbuda</option>
@@ -95,12 +95,12 @@
 						</select>
 					</div>
 					<div id="post-container" class="form-element">
-						<label for="post">Postal Code (Canadians only)</label>
+						<label for="post">Postal Code (Canadians only)</label><br>
 						<input type="text" name="post" id="post" maxlength="6" placeholder="1A1A1A">
 					</div>
 					<!-- thought - maybe stick a heading here as a dividing line? See how it looks when I'm done adding all the elements in, and I'm making it look good -->
 					<div id="gender-contain" class="form-element">
-						<p>Indicate your gender</p>
+						<p>Indicate your gender</p><br>
 						<label for="male">
 							<input type="radio" name="gender" id="male" value="male">
 							Male
@@ -116,11 +116,11 @@
 					</div>
 					<br>
 					<div id="date-container" class="form-element">
-						<label for="dob">Please enter your date of birth*</label>
+						<label for="dob">Please enter your date of birth*</label><br>
 						<input type="date" name="dob" id="dob" required>
 					</div>
 					<div id="bio-contain" class="form-element">
-						<label for="bio">Tell us about yourself</label>
+						<label for="bio">Tell us about yourself</label><br>
 						<textarea name="bio" id="bio"></textarea>
 					</div>
 					<fieldset id="hobbies" class="form-element">
@@ -194,10 +194,10 @@
 						</label>
 					</fieldset>
 					<div id="web-contain" class="form-element">
-						<label for="web">Do you have a website?</label>
+						<label for="web">Do you have a website?</label><br>
 						<input type="url" name="web" id="web">
 					</div>
-					<button type="submit">Submit</button>
+					<button type="submit" onclick="alert('Thank you! Your information has been logged and sent to the mothership.')">Submit</button>
 					<button type="reset">Clear all fields</button>
 				</form>
 			</section>
