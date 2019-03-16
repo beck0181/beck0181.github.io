@@ -2,7 +2,7 @@
 /*this css is for assg-3*/
 header{
 	color: #006400;
-	font-family: "Times New Roman"
+	font-family: "Times New Roman";
 }
 form{
 	border-style: ridge;
@@ -33,7 +33,7 @@ a:hover, a:active {
   background-color: red;
 }
 h2,h4{
-	font-family: "verdana"
+	font-family: "verdana";
 	text-align: center;
 	color: #000080;
 }
