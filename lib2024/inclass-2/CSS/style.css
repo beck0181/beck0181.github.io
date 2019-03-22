@@ -6,7 +6,7 @@ h1,h2{
 }
 table,th,td{
 	border-style: solid;
-	/*Why the fuck is it displaying as a double-wall border?*/
+	/*Why the fuck is it displaying as a double-wall border? seriously, now*/
 	border-color: black;
 	text-align: center;
 }
