@@ -4,9 +4,28 @@ body{
 h1{
 	text-align: center;
 }
-header, footer{
+header{
 	background-color: #7CC576;
+	height: 235px;
+}
+footer{
+	background-color: #7CC576;
+	height: 110px;
 }
 main{
 	background-color: #F2F3F5;
+	height: 675px;
+}
+article{
+	float: left;
+	width: 66%;
+	height: 66%;
+}
+aside{
+	float: right;
+	width: 33%;
+	height: 66%;
+}
+div{
+	width: 100%
 }
