@@ -56,6 +56,9 @@ aside{
 	width: 33%;
 	height: 66%;
 }
+img.ball{
+	padding-top: 25px;
+}
 article.article2{
 	width: 100%;
 	float: left;
@@ -72,10 +75,13 @@ footer{
 }
 p.copy{
 	float: left;
+	padding-top: 25px;
+	padding-left: 10px;
 }
 span.social{
 	float: right;
 	padding: 5px;
+	padding-top: 20px;
 }
 .clearfix::after {
 	content: ""; 
